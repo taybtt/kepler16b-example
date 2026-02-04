@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://bipm.org/jcgm/jcgm-bundle#"
+     xml:base="http://bipm.org/jcgm/jcgm-bundle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:iso-1087-1="http://iso.org/iso-1087-1#"
+     xmlns:jcgm-bundle="http://bipm.org/jcgm/jcgm-bundle#">
+    <owl:Ontology rdf:about="http://bipm.org/jcgm/jcgm-bundle">
+        <owl:imports rdf:resource="http://bipm.org/jcgm/vim4"/>
+        <oml:namespace rdf:resource="http://bipm.org/jcgm/jcgm-bundle#"/>
+        <oml:prefix>jcgm-bundle</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#VocabularyBundle"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Characterizes -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Characterizes">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Describes -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Describes">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#GeneralNominalProperty -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#GeneralNominalProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#GeneralOrdinalQuantity -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#GeneralOrdinalQuantity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#GeneralUnitaryQuantity -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#GeneralUnitaryQuantity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Given -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Given">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#HasInput -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasInput">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#HasMultiple -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasMultiple">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#HasPowerOfUnitFactor -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasPowerOfUnitFactor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#HasPowerOfUnitaryQuantityFactor -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasPowerOfUnitaryQuantityFactor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#HasQuantityDimensionFactor -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasQuantityDimensionFactor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#HasUnit -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasUnit">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Includes -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Includes">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#IndividualNominalProperty -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IndividualNominalProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#IndividualOrdinalQuantity -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IndividualOrdinalQuantity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#IndividualUnitaryQuantity -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IndividualUnitaryQuantity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#InherentOrdinalQuantity -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#InherentOrdinalQuantity">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#IndividualOrdinalQuantity"/>
+        <owl:disjointWith rdf:resource="http://bipm.org/jcgm/vim4#OrdinalQuantityValue"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#InherentUnitaryQuantityValue -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#InherentUnitaryQuantityValue">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#IndividualUnitaryQuantity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Instantiates -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Instantiates">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#IsAttributedTo -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IsAttributedTo">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#IsBasedOn -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IsBasedOn">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#IsInfluencedBy -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IsInfluencedBy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#IsMultipleOf -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IsMultipleOf">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Measurement -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Measurement">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#MeasurementMethod -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementMethod">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#MeasurementModel -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementModel">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#MeasurementPrinciple -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementPrinciple">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#MeasurementProcedure -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementProcedure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#MeasurementScale -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementScale">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#MeasurementUncertainty -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementUncertainty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#MeasurementUnit -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementUnit">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#IndividualUnitaryQuantity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Measures -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Measures">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Multiple -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Multiple">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#OrdinalQuantityValue -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#OrdinalQuantityValue">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#IndividualOrdinalQuantity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#OrdinalScale -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#OrdinalScale">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#MeasurementScale"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Per -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Per">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#PrefixedMeasurementUnit -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#PrefixedMeasurementUnit">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#MeasurementUnit"/>
+        <owl:disjointWith rdf:resource="http://bipm.org/jcgm/vim4#UnprefixedMeasurementUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#ReferenceSet -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#ReferenceSet">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#MeasurementScale"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#Specializes -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Specializes">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#SystemHasBaseUnit -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemHasBaseUnit">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#SystemHasUnit"/>
+        <owl:disjointWith rdf:resource="http://bipm.org/jcgm/vim4#SystemHasDerivedUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#SystemHasBaseUnitaryQuantity -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemHasBaseUnitaryQuantity">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#SystemHasUnitaryQuantity"/>
+        <owl:disjointWith rdf:resource="http://bipm.org/jcgm/vim4#SystemHasDerivedUnitaryQuantity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#SystemHasDerivedUnit -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemHasDerivedUnit">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#SystemHasUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#SystemHasDerivedUnitaryQuantity -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemHasDerivedUnitaryQuantity">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#SystemHasUnitaryQuantity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#SystemHasUnit -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemHasUnit">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#SystemHasUnitaryQuantity -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemHasUnitaryQuantity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#SystemOfQuantities -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemOfQuantities">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#SystemOfUnits -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemOfUnits">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#UnitaryScale -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UnitaryScale">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#MeasurementScale"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#UnprefixedMeasurementUnit -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UnprefixedMeasurementUnit">
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#MeasurementUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#UsesCorrection -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UsesCorrection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#UsesOperationsOf -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UsesOperationsOf">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#YieldsMeasuredValue -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#YieldsMeasuredValue">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://bipm.org/jcgm/vim4#YieldsMeasurementUncertainty -->
+
+
+    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#YieldsMeasurementUncertainty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://iso.org/iso-1087-1#ConceptSystem -->
+
+
+    <rdf:Description rdf:about="http://iso.org/iso-1087-1#ConceptSystem">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#InherentUnitaryQuantity"/>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://bipm.org/jcgm/vim4#InherentUnitaryQuantityValue"/>
+            </owl:Class>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#IndividualUnitaryQuantity"/>
+    </owl:Class>
+    <owl:Class>
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UnitaryQuantityValue"/>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://bipm.org/jcgm/vim4#InherentUnitaryQuantityValue"/>
+            </owl:Class>
+        </owl:intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://bipm.org/jcgm/vim4#IndividualUnitaryQuantity"/>
+    </owl:Class>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Characterizes"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Describes"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#GeneralNominalProperty"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#GeneralOrdinalQuantity"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#GeneralUnitaryQuantity"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Given"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasInput"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasMultiple"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasPowerOfUnitFactor"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasPowerOfUnitaryQuantityFactor"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasQuantityDimensionFactor"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#HasUnit"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Includes"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IndividualNominalProperty"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IndividualOrdinalQuantity"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IndividualUnitaryQuantity"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Instantiates"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IsAttributedTo"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IsBasedOn"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IsInfluencedBy"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#IsMultipleOf"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Measurement"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementMethod"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementModel"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementPrinciple"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementProcedure"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementScale"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementUncertainty"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Measures"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Multiple"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Per"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#Specializes"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemHasUnit"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemHasUnitaryQuantity"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemOfQuantities"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#SystemOfUnits"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UsesCorrection"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UsesOperationsOf"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#YieldsMeasuredValue"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#YieldsMeasurementUncertainty"/>
+            <rdf:Description rdf:about="http://iso.org/iso-1087-1#ConceptSystem"/>
+            <rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#InherentUnitaryQuantityValue"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#MeasurementUnit"/>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#InherentUnitaryQuantity"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://bipm.org/jcgm/vim4#InherentUnitaryQuantityValue"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UnitaryQuantityValue"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="http://bipm.org/jcgm/vim4#InherentUnitaryQuantityValue"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#OrdinalScale"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#ReferenceSet"/>
+            <rdf:Description rdf:about="http://bipm.org/jcgm/vim4#UnitaryScale"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+

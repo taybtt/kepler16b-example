@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.com/tutorial2/description/requirements#"
+     xml:base="http://example.com/tutorial2/description/requirements"
+     xmlns:oml="http://opencaesar.io/oml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:base="http://example.com/tutorial2/vocabulary/base#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:mission="http://example.com/tutorial2/vocabulary/mission#"
+     xmlns:requirements="http://example.com/tutorial2/description/requirements#">
+    <owl:Ontology rdf:about="http://example.com/tutorial2/description/requirements">
+        <owl:imports rdf:resource="http://example.com/tutorial2/description/interfaces"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/vocabulary/base"/>
+        <owl:imports rdf:resource="http://example.com/tutorial2/vocabulary/mission"/>
+        <oml:namespace rdf:resource="http://example.com/tutorial2/description/requirements#"/>
+        <oml:prefix>requirements</oml:prefix>
+        <oml:type rdf:resource="http://opencaesar.io/oml#Description"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/tutorial2/vocabulary/mission#specifies -->
+
+
+    <owl:ObjectProperty rdf:about="http://example.com/tutorial2/vocabulary/mission#specifies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/tutorial2/vocabulary/base#hasIdentifier -->
+
+
+    <owl:DatatypeProperty rdf:about="http://example.com/tutorial2/vocabulary/base#hasIdentifier"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://example.com/tutorial2/description/requirements#orbiter-ground-data-system-command-to-spacecraft -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/tutorial2/description/requirements#orbiter-ground-data-system-command-to-spacecraft">
+        <rdf:type rdf:resource="http://example.com/tutorial2/vocabulary/mission#Requirement"/>
+        <mission:specifies rdf:resource="http://example.com/tutorial2/description/interfaces#orbiter-ground-data-system.presents.commandOut"/>
+        <base:hasIdentifier>R.04</base:hasIdentifier>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/tutorial2/description/requirements#orbiter-ground-data-system-telemetry-from-spacecraft -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/tutorial2/description/requirements#orbiter-ground-data-system-telemetry-from-spacecraft">
+        <rdf:type rdf:resource="http://example.com/tutorial2/vocabulary/mission#Requirement"/>
+        <mission:specifies rdf:resource="http://example.com/tutorial2/description/interfaces#orbiter-ground-data-system.presents.telemetryIn"/>
+        <base:hasIdentifier>R.06</base:hasIdentifier>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/tutorial2/description/requirements#orbiter-spacecraft-command-from-ground-data-system -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/tutorial2/description/requirements#orbiter-spacecraft-command-from-ground-data-system">
+        <rdf:type rdf:resource="http://example.com/tutorial2/vocabulary/mission#Requirement"/>
+        <mission:specifies rdf:resource="http://example.com/tutorial2/description/interfaces#orbiter-spacecraft.presents.commandIn"/>
+        <base:hasIdentifier>R.05</base:hasIdentifier>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.com/tutorial2/description/requirements#orbiter-spacecraft-telemetry-to-ground-data-system -->
+
+
+    <owl:NamedIndividual rdf:about="http://example.com/tutorial2/description/requirements#orbiter-spacecraft-telemetry-to-ground-data-system">
+        <rdf:type rdf:resource="http://example.com/tutorial2/vocabulary/mission#Requirement"/>
+        <mission:specifies rdf:resource="http://example.com/tutorial2/description/interfaces#orbiter-spacecraft.presents.telemetryOut"/>
+        <base:hasIdentifier>R.07</base:hasIdentifier>
+        <oml:type rdf:resource="http://opencaesar.io/oml#ConceptInstance"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.0.2023-01-14T12:41:38Z) https://github.com/owlcs/owlapi/ -->
+
+
