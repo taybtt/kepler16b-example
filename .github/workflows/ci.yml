@@ -26,6 +26,8 @@ jobs:
       run: chmod +x ./gradlew
     - name: Build
       run: ./gradlew build
+    - name: Start Fuseki
+      run: ./gradlew startFuseki
     - name: Query
       run: ./gradlew owlQuery
     - name: Upload
@@ -34,3 +36,5 @@ jobs:
       with:
         name: build
         path: build/
+    - name: Stop Fuseki
+      run: ./gradlew stopFuseki
