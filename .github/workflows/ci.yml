@@ -59,8 +59,19 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
        path: build/web
-    - name: Deploy
-      uses: actions/deploy-pages@v2
       
-
+  deploy:
+    if: github.event_name == 'push'
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v2
     
