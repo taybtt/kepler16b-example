@@ -3,7 +3,8 @@ name: CI/CD
 on:
   push:
     branches: [ "main" ]
-  
+  pull_request:
+    branches: [ "main" ]
 
 permissions:
   contents: read
@@ -60,6 +61,7 @@ jobs:
        path: build/web
       
   deploy:
+    if: github.event_name == 'push'
     needs: build
     permissions:
       pages: write
